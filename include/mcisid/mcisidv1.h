@@ -48,7 +48,7 @@
 #define MCISIDV1_COMPARE_EQUAL   0
 #define MCISIDV1_COMPARE_GREATER 1
 
-#if defined(__unix)
+#if defined(__unix__)
   #define MCISIDV1_BASE_EPOCH_UNIX_MS 1704067200000ULL // 2024-01-01T00:00:00Z
 #elif defined(_WIN32)
   #define MCISIDV1_BASE_EPOCH_WINDOWS_MS /* Não sei */ 1704067200000ULL
